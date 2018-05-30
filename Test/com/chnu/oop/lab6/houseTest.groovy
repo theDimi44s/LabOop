@@ -1,4 +1,4 @@
-package com.chnu.oop.lab7
+package com.chnu.oop.lab6
 
 import com.chnu.oop.lab6.house
 import org.junit.jupiter.api.Test
