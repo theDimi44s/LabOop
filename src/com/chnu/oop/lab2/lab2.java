@@ -8,13 +8,14 @@ public class lab2 {
 
         Scanner read = new Scanner(System.in);
         {
-            int a = 6;
+            int a = 10;
             int b = 5;
             int c = a ^ b;
             System.out.printf("a = %s\nb = %s\na ^ b = %s\n",
                     Integer.toBinaryString(a), Integer.toBinaryString(b), Integer.toBinaryString(c));
 
             System.out.print("Введите размерность = ");
+
             int length = read.nextInt();
             double[] arr = new double[length];
             arr[0] = 1.0;
@@ -26,7 +27,8 @@ public class lab2 {
                 sum += arr[i];
             }
             System.out.print("[");
-            for (int i = 0; i < length; i++) System.out.printf("%.2f ", arr[i]);
+            for (int i = 0; i < length; i++)
+                System.out.printf("%.2f ", arr[i]);
             System.out.printf("]\nSum : %.2f\n", sum);
         }
 
